@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="TIMETABLE_PREF"
+        android:title="@string/timetable">
+
+        <PreferenceScreen
+            android:key="WEEK_PREF"
+            android:title="@string/week"
+            android:summary="@string/week_pref_summary"/>
+
+        <MultiSelectListPreference
+            android:key="FREEZE_PREF"
+            android:title="@string/freeze_pref"
+            android:summary="@string/freeze_pref_summary"
+            android:enabled="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="TASK_PREF"
+        android:title="@string/task">
+
+        <SwitchPreference
+            android:key="PRIORITY_PREF"
+            android:title="@string/priority"
+            android:summary="@string/priority_pref_summary"
+            android:defaultValue="false"/>
+
+        <PreferenceScreen
+            android:key="WAKE_UP_CALL_PREF"
+            android:title="@string/wake_up_call"
+            android:summary="@string/wake_up_call_default_summary">
+
+            <SwitchPreference
+                android:key="WAKE_UP_CALL_SWITCH_PREF"
+                android:title="@string/wake_up_call_check"
+                android:summary="@string/priority_pref_summary"
+                android:defaultValue="false"/>
+
+            <EditTextPreference
+                android:key="WAKE_UP_CALL_EDIT_PREF"
+                android:title="@string/wake_up_call_edit"
+                android:dependency="WAKE_UP_CALL_SWITCH_PREF"
+                android:defaultValue="@string/wake_up_call_edit_default"
+                android:inputType="time"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="GENERAL_PREF"
+        android:title="@string/general_pref">
+
+        <RingtonePreference
+            android:key="SOUND_PREF"
+            android:title="@string/alarm_type_sound"
+            android:ringtoneType="notification|alarm"
+            android:defaultValue="content://settings/system/notification_sound"
+            android:showDefault="true"
+            android:showSilent="false"/>
+
+        <ListPreference
+            android:key="VIBRATOR_PREF"
+            android:title="@string/alarm_type_vibrator"
+            android:entries="@array/alarm_vibrator_option_entries"
+            android:entryValues="@array/alarm_vibrator_option_values"
+            android:defaultValue="0"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="OPTIONAL_PREF"
+        android:title="@string/option_pref">
+
+        <SwitchPreference
+            android:key="ALARM_PREF"
+            android:title="@string/alarm_pref"
+            android:summary="@string/alarm_pref_summary"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="REMINDER_PREF"
+            android:title="@string/reminder_pref"
+            android:summary="@string/reminder_pref_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

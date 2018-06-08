@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.aston.tanion.schedule"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:theme="@style/SplashTheme"
+            android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.NavigationDrawerActivity">
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.TimetableDetailActivity"
+            android:label="@string/timetable"
+            android:parentActivityName="com.aston.tanion.schedule.activity.NavigationDrawerActivity"
+            android:windowSoftInputMode="stateUnspecified|adjustNothing"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.NavigationDrawerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.TaskDetailActivity"
+            android:label="@string/task"
+            android:parentActivityName="com.aston.tanion.schedule.activity.NavigationDrawerActivity"
+            android:windowSoftInputMode="stateUnspecified|adjustNothing"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.NavigationDrawerActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.TaskCompletedDetailActivity"
+            android:label="@string/task"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.NavigationDrawerActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.WeekActivity"
+            android:label="@string/week"
+            android:parentActivityName="com.aston.tanion.schedule.activity.SettingsActivity"
+            android:windowSoftInputMode="stateUnspecified|adjustNothing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.SettingsActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName="com.aston.tanion.schedule.activity.NavigationDrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.NavigationDrawerActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.TutorialActivity"
+            android:label="@string/tutorial"
+            android:parentActivityName="com.aston.tanion.schedule.activity.AboutActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.AboutActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.aston.tanion.schedule.activity.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName="com.aston.tanion.schedule.activity.NavigationDrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aston.tanion.schedule.activity.NavigationDrawerActivity"/>
+        </activity>
+
+        <receiver android:name="com.aston.tanion.schedule.receiver.GeneralSystemReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.aston.tanion.schedule.service.AlarmService"/>
+        <service android:name="com.aston.tanion.schedule.service.DateChangeService"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="@dimen/card_view_elevation"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    app:cardPreventCornerOverlap="true"
+    app:contentPadding="@dimen/card_view_content_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/task_item_priority"
+            android:layout_width="20dp"
+            android:layout_height="115dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/greenColor"/>
+
+        <LinearLayout
+            android:id="@+id/task_item_text_container"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/task_item_priority">
+
+            <TextView
+                android:id="@+id/task_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:maxLines="1"
+                android:textSize="20sp"
+                tools:text="Tasks Title"
+                style="@android:style/TextAppearance"/>
+
+            <TextView
+                android:id="@+id/task_item_time"
+                android:layout_width="@dimen/time_shape_size"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:background="@drawable/rectangular_shape"
+                android:textSize="30sp"
+                tools:text="09:25"/>
+
+            <TextView
+                android:id="@+id/task_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                tools:text="Mon 12 Jan 2016"
+                android:text="Mon 12 Jan 2016"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/task_item_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_clear_24dp"/>
+
+            <ImageView
+                android:id="@+id/task_item_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_alarm_24dp"/>
+
+            <TextView
+                android:id="@+id/task_item_alarm_stateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/alarm_off"/>
+
+            <CheckBox
+                android:id="@+id/task_item_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

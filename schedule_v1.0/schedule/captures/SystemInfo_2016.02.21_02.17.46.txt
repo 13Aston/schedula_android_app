@@ -1,0 +1,174 @@
+TASK com.aston.tanion.schedule id=1351
+  ACTIVITY com.aston.tanion.schedule/.activity.NavigationDrawerActivity 35b48275 pid=14349
+    Local FragmentActivity 1305a64e State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 20407912:
+      #0: TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+        mFragmentId=#7f0d006a mContainerId=#7f0d006a mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{20407912 in HostCallbacks{188692e0}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+        mContainer=android.widget.FrameLayout{2b4cf999 V.E..... ........ 0,0-1080,1701 #7f0d006a app:id/fragment_container}
+        mView=android.support.design.widget.CoordinatorLayout{929145e V.E..... ........ 0,0-1080,1701}
+        mInnerView=android.support.design.widget.CoordinatorLayout{929145e V.E..... ........ 0,0-1080,1701}
+        Child FragmentManager{966803f in TimetableViewPagerFragment{164338e3}}:
+          Active Fragments in 966803f:
+            #0: TimetableTabFragment{2b71fd0c #0 id=0x7f0d00c4}
+              mFragmentId=#7f0d00c4 mContainerId=#7f0d00c4 mTag=null
+              mState=5 mIndex=0 mWho=android:fragment:0:0 mBackStackNesting=0
+              mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{966803f in TimetableViewPagerFragment{164338e3}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+              mParentFragment=TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+              mArguments=Bundle[{day=SATURDAY}]
+              mContainer=android.support.v4.view.ViewPager{3dea9655 VFED.... ........ 0,144-1080,1533 #7f0d00c4 app:id/view_pager}
+              mView=android.support.design.widget.CoordinatorLayout{316e186a V.E..... ........ 0,0-1080,1389}
+              mInnerView=android.support.design.widget.CoordinatorLayout{316e186a V.E..... ........ 0,0-1080,1389}
+              Child FragmentManager{234ce15b in TimetableTabFragment{2b71fd0c}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+                  mContainer=android.support.v4.app.Fragment$1@1bc7ddf8
+                  mParent=TimetableTabFragment{2b71fd0c #0 id=0x7f0d00c4}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+            #1: TimetableTabFragment{1f8b42d1 #1 id=0x7f0d00c4}
+              mFragmentId=#7f0d00c4 mContainerId=#7f0d00c4 mTag=null
+              mState=5 mIndex=1 mWho=android:fragment:0:1 mBackStackNesting=0
+              mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=false
+              mFragmentManager=FragmentManager{966803f in TimetableViewPagerFragment{164338e3}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+              mParentFragment=TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+              mArguments=Bundle[{day=FRIDAY}]
+              mContainer=android.support.v4.view.ViewPager{3dea9655 VFED.... ........ 0,144-1080,1533 #7f0d00c4 app:id/view_pager}
+              mView=android.support.design.widget.CoordinatorLayout{1b4d5136 V.E..... ......ID -1080,0-0,1389}
+              mInnerView=android.support.design.widget.CoordinatorLayout{1b4d5136 V.E..... ......ID -1080,0-0,1389}
+              Child FragmentManager{346e3837 in TimetableTabFragment{1f8b42d1}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+                  mContainer=android.support.v4.app.Fragment$1@1998e1a4
+                  mParent=TimetableTabFragment{1f8b42d1 #1 id=0x7f0d00c4}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+            #2: TimetableTabFragment{23b03b0d #2 id=0x7f0d00c4}
+              mFragmentId=#7f0d00c4 mContainerId=#7f0d00c4 mTag=null
+              mState=5 mIndex=2 mWho=android:fragment:0:2 mBackStackNesting=0
+              mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+              mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=false
+              mFragmentManager=FragmentManager{966803f in TimetableViewPagerFragment{164338e3}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+              mParentFragment=TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+              mArguments=Bundle[{day=SUNDAY}]
+              mContainer=android.support.v4.view.ViewPager{3dea9655 VFED.... ........ 0,144-1080,1533 #7f0d00c4 app:id/view_pager}
+              mView=android.support.design.widget.CoordinatorLayout{1d154ac2 V.E..... ......ID 1080,0-2160,1389}
+              mInnerView=android.support.design.widget.CoordinatorLayout{1d154ac2 V.E..... ......ID 1080,0-2160,1389}
+              Child FragmentManager{32e420d3 in TimetableTabFragment{23b03b0d}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+                  mContainer=android.support.v4.app.Fragment$1@23547410
+                  mParent=TimetableTabFragment{23b03b0d #2 id=0x7f0d00c4}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+          Added Fragments:
+            #0: TimetableTabFragment{2b71fd0c #0 id=0x7f0d00c4}
+            #1: TimetableTabFragment{1f8b42d1 #1 id=0x7f0d00c4}
+            #2: TimetableTabFragment{23b03b0d #2 id=0x7f0d00c4}
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+            mContainer=android.support.v4.app.Fragment$1@1ab27b09
+            mParent=TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: TimetableViewPagerFragment{164338e3 #0 id=0x7f0d006a}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@188692e0
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{3171510e V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{12c5f72f V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{2cf4c13c G.E..... ... 0,0-0,0 #1020373}
+          android.widget.FrameLayout{277ebec5 V.E..... ... 0,75-1080,1776}
+            android.support.v7.widget.FitWindowsLinearLayout{75701a V.E..... ... 0,0-1080,1701 #7f0d0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{844d74b G.E..... ... 0,0-0,0 #7f0d0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{deab528 V.E..... ... 0,0-1080,1701 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{35118241 VFE..... ... 0,0-1080,1701 #7f0d0069 app:id/drawer_layout}
+                  android.support.design.widget.CoordinatorLayout{2d6a73e6 V.E..... ... 0,0-1080,1701}
+                    android.widget.FrameLayout{2b4cf999 V.E..... ... 0,0-1080,1701 #7f0d006a app:id/fragment_container}
+                      android.support.design.widget.CoordinatorLayout{929145e V.E..... ... 0,0-1080,1701}
+                        android.widget.LinearLayout{f879d27 V.E..... ... 0,168-1080,1701}
+                          android.support.design.widget.AppBarLayout{21c9fbd4 V.E..... ... 0,0-1080,144}
+                            android.support.design.widget.TabLayout{7b3017d VFED.... ... 0,0-1080,144 #7f0d00a1 app:id/tab_layout}
+                              android.support.design.widget.TabLayout$SlidingTabStrip{3559e872 V.ED.... ... 0,0-1512,144}
+                                android.support.design.widget.TabLayout$TabView{1646e4c3 VFE...C. ... 0,0-216,144}
+                                  android.support.v7.widget.AppCompatImageView{7b50140 G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{25f33879 V.ED.... ... 60,43-156,100}
+                                android.support.design.widget.TabLayout$TabView{2a5a19be VFE...C. ... 216,0-432,144}
+                                  android.support.v7.widget.AppCompatImageView{23290a1f G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{2c88f16c V.ED.... ... 70,43-146,100}
+                                android.support.design.widget.TabLayout$TabView{1565e335 VFE...C. ... 432,0-648,144}
+                                  android.support.v7.widget.AppCompatImageView{179a13ca G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{16de293b V.ED.... ... 64,43-152,100}
+                                android.support.design.widget.TabLayout$TabView{bc9b858 VFE...C. ... 648,0-864,144}
+                                  android.support.v7.widget.AppCompatImageView{271e7db1 G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{1a2da296 V.ED.... ... 67,43-149,100}
+                                android.support.design.widget.TabLayout$TabView{22fc1e17 VFE...C. ... 864,0-1080,144}
+                                  android.support.v7.widget.AppCompatImageView{134e0204 G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{fec43ed V.ED.... ... 77,43-138,100}
+                                android.support.design.widget.TabLayout$TabView{3a995222 VFE...C. .S. 1080,0-1296,144}
+                                  android.support.v7.widget.AppCompatImageView{129a84b3 G.ED.... .S. 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{15ab3a70 V.ED.... .S. 70,43-146,100}
+                                android.support.design.widget.TabLayout$TabView{85631e9 VFE...C. ... 1296,0-1512,144}
+                                  android.support.v7.widget.AppCompatImageView{131e6e6e G.ED.... ... 0,0-0,0}
+                                  android.support.v7.widget.AppCompatTextView{aeb90f V.ED.... ... 67,43-149,100}
+                          android.support.v4.view.ViewPager{3dea9655 VFED.... ... 0,144-1080,1533 #7f0d00c4 app:id/view_pager}
+                            android.support.design.widget.CoordinatorLayout{316e186a V.E..... ... 0,0-1080,1389}
+                              android.support.v7.widget.RecyclerView{37618d9c VFED.... F.. 24,24-1056,1365 #7f0d00b0 app:id/recycler_view}
+                                android.support.v7.widget.CardView{305703a5 V.E..... ... 0,0-1032,396}
+                                  android.widget.LinearLayout{ec7037a V.E..... ... 24,24-1008,372}
+                                    android.widget.LinearLayout{1827d72b V.E...C. ... 0,0-864,348 #7f0d00bc app:id/timetable_text_view_group}
+                                      android.support.v7.widget.AppCompatTextView{2c7e788 V.ED.... ... 0,0-54,81 #7f0d00bd app:id/timetable_item_title}
+                                      android.widget.LinearLayout{32d93521 V.E..... ... 30,111-630,261}
+                                        android.support.v7.widget.AppCompatTextView{d31dd46 V.ED.... ... 39,14-560,135 #7f0d00be app:id/timetable_item_time}
+                                      android.support.v7.widget.AppCompatTextView{39cabb07 V.ED.... ... 0,291-990,348 #7f0d00bf app:id/timetable_item_location}
+                                    android.widget.LinearLayout{eb7f434 V.E..... ... 864,0-984,348 #7f0d00c0 app:id/timetable_image_view_group}
+                                      android.support.v7.widget.AppCompatImageView{24f3025d V.ED..C. ... 24,0-96,72 #7f0d00c1 app:id/timetable_item_delete}
+                                      android.support.v7.widget.AppCompatImageView{371e87d2 V.ED..C. ... 24,102-96,174 #7f0d00c2 app:id/timetable_item_alarm}
+                                      android.support.v7.widget.AppCompatTextView{23ce00a3 V.ED..C. ... 0,174-120,231 #7f0d00c3 app:id/timetable_item_alarm_state}
+                              android.support.v7.widget.AppCompatTextView{23fa1fa0 G.ED.... ... 424,666-656,723 #7f0d00b1 app:id/empty_recycler_view}
+                            android.support.design.widget.CoordinatorLayout{1b4d5136 V.E..... ... -1080,0-0,1389}
+                              android.support.v7.widget.RecyclerView{1ce26759 VFED.... ... 24,24-1056,1365 #7f0d00b0 app:id/recycler_view}
+                              android.support.v7.widget.AppCompatTextView{fb94f1e V.ED.... ... 424,666-656,723 #7f0d00b1 app:id/empty_recycler_view}
+                            android.support.design.widget.CoordinatorLayout{1d154ac2 V.E..... ... 1080,0-2160,1389}
+                              android.support.v7.widget.RecyclerView{373603ff VFED.... ... 24,24-1056,1365 #7f0d00b0 app:id/recycler_view}
+                              android.support.v7.widget.AppCompatTextView{d7195cc V.ED.... ... 424,666-656,723 #7f0d00b1 app:id/empty_recycler_view}
+                        android.support.design.widget.FloatingActionButton{3cc92015 VFED..C. ... 864,1485-1032,1653 #7f0d00a2 app:id/tab_floating_action_button}
+                    android.support.design.widget.AppBarLayout{ea73f2a V.E..... ... 0,0-1080,168 #7f0d006b app:id/app_bar}
+                      android.support.v7.widget.Toolbar{36f0e11b V.E..... ... 0,0-1080,168 #7f0d006c app:id/tool_bar}
+                        android.widget.TextView{3f0842b8 V.ED.... ... 180,43-448,124}
+                        android.widget.ImageButton{2d28a891 VFED..C. ... 0,0-168,168}
+                        android.support.v7.widget.ActionMenuView{ed223f6 V.E..... ... 1080,0-1080,168}
+                  android.support.design.widget.NavigationView{1cb273f7 I.E..... ... -888,0-0,1701 #7f0d006d app:id/navigation_view}
+                    android.support.design.internal.NavigationMenuView{3f5ad264 VFED.V.. ... 0,0-888,1701 #7f0d0072 app:id/design_navigation_view}
+                      android.widget.LinearLayout{31e3ccd V.E..... ... 0,0-888,624 #7f0d0071 app:id/navigation_header_container}
+                        android.widget.FrameLayout{1df48982 V.E..... ... 0,0-888,600}
+                          android.support.v7.widget.AppCompatTextView{1f905893 V.ED.... ... 48,431-840,552}
+                      android.support.design.internal.NavigationMenuItemView{24b0d0 VFED..C. ... 0,624-888,768}
+                        android.support.v7.widget.AppCompatCheckedTextView{e5ed8c9 V.ED.... ... 48,0-840,144 #7f0d0073 app:id/design_menu_item_text}
+                        android.widget.FrameLayout{38e5bbce V.E..... ... 840,0-840,144 #7f0d0075 app:id/design_menu_item_action_area}
+                      android.support.design.internal.NavigationMenuItemView{85deaef VFED..C. ... 0,768-888,912}
+                        android.support.v7.widget.AppCompatCheckedTextView{116c09fc V.ED.... ... 48,0-840,144 #7f0d0073 app:id/design_menu_item_text}
+                        android.widget.FrameLayout{af33885 V.E..... ... 840,0-840,144 #7f0d0075 app:id/design_menu_item_action_area}
+                      android.support.design.internal.NavigationMenuItemView{a5c6da VFED..C. ... 0,912-888,1056}
+                        android.support.v7.widget.AppCompatCheckedTextView{2fc8470b V.ED.... ... 48,0-840,144 #7f0d0073 app:id/design_menu_item_text}
+                        android.widget.FrameLayout{1b6dc9e8 V.E..... ... 840,0-840,144 #7f0d0075 app:id/design_menu_item_action_area}
+                      android.support.design.internal.NavigationMenuItemView{32b3d801 VFED..C. ... 0,1056-888,1200}
+                        android.support.v7.widget.AppCompatCheckedTextView{342976a6 V.ED.... ... 48,0-840,144 #7f0d0073 app:id/design_menu_item_text}
+                        android.widget.FrameLayout{23248e7 V.E..... ... 840,0-840,144 #7f0d0075 app:id/design_menu_item_action_area}
+        android.view.View{b499c94 V.ED.... ... 0,0-1080,75 #102002f android:id/statusBarBackground}
+        android.view.View{2a84f33d V.ED.... ... 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}

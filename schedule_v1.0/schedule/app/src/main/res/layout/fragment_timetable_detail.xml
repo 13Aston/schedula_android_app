@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aston.tanion.schedule.activity.NavigationDrawerActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/timetable_detail_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/timetable_detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:maxLines="2"
+                    android:hint="@string/title"
+                    android:inputType="textMultiLine|textCapWords"
+                    android:imeOptions="actionNext"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/timetable_detail_location_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_detail_title_container"
+                android:layout_marginBottom="5dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/timetable_detail_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/location"
+                    android:inputType="textCapWords"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/timetable_time_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_below="@id/timetable_detail_location_container"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/start"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/timetable_detail_start_time"
+                    android:layout_width="@dimen/time_shape_size"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/rectangular_shape"
+                    android:textSize="30sp"
+                    tools:text="Start"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/end"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/timetable_detail_end_time"
+                    android:layout_width="@dimen/time_shape_size"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/rectangular_shape"
+                    tools:text="End"
+                    android:textSize="30sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/timetable_time_errors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_time_layout"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/redColor"
+                tools:text="Time errors messages"/>
+
+            <!--divider line 1-->
+            <TextView
+                android:id="@+id/timetable_divider_line_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_time_errors"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/divider_line"/>
+
+            <TextView
+                android:id="@+id/timetable_alarm_states"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/timetable_divider_line_1"
+                android:text="@string/alarm_section"
+                android:textColor="@android:color/black"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/timetable_alarm_states"
+                android:text="@string/alarm_start"/>
+
+            <Switch
+                android:id="@+id/timetable_detail_alarm_start_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/timetable_alarm_states"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/timetable_detail_alarm_start_switch"
+                android:text="@string/alarm_end"/>
+
+            <Switch
+                android:id="@+id/timetable_detail_alarm_end_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/timetable_detail_alarm_start_switch"/>
+
+            <include
+                android:id="@+id/timetable_detail_event_reminder"
+                layout="@layout/layout_event_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_detail_alarm_end_switch"/>
+
+            <!-- divider line 2-->
+            <TextView
+                android:id="@+id/timetable_divider_line_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/timetable_detail_event_reminder"
+                android:background="@drawable/divider_line"/>
+
+            <TextView
+                android:id="@+id/timetable_alarm_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_divider_line_2"
+                android:layout_marginBottom="15dp"
+                android:text="@string/alarm_options"
+                android:textColor="@android:color/black"
+                style="@style/TextAppearance.AppCompat.Medium"
+                tools:text="Options"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/timetable_alarm_option"
+                android:layout_marginBottom="10dp"
+                android:text="@string/alarm_type"/>
+
+
+            <Spinner
+                android:id="@+id/timetable_detail_alarm_type_choice"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:layout_below="@id/timetable_alarm_option"
+                android:layout_marginBottom="10dp"/>
+
+            <!--divider line 3-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/timetable_detail_alarm_type_choice"
+                android:background="@drawable/divider_line"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

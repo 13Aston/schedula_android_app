@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/timetable_drawer_menu"
+            android:title="@string/timetable"
+            android:icon="@drawable/ic_timetable"
+            android:checkable="true"/>
+
+        <item android:id="@+id/task_drawer_menu"
+              android:title="@string/task"
+              android:icon="@drawable/ic_task"
+              android:checkable="true"/>
+
+        <item
+            android:id="@+id/settings_drawer_menu"
+            android:title="@string/settings"
+            android:checkable="true"
+            android:icon="@drawable/ic_settings"/>
+
+        <item
+            android:id="@+id/about_drawer_menu"
+            android:title="@string/about"
+            android:checkable="true"
+            android:icon="@drawable/ic_about"/>
+    </group>
+
+</menu>

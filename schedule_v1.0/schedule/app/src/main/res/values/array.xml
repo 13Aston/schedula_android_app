@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timetable_tab">
+        <!-- Three letters abbreviation -->
+        <item>MON</item> // Monday
+        <item>TUE</item> // Tuesday
+        <item>WED</item> // Wednesday
+        <item>THU</item> // Thursday
+        <item>FRI</item> // Friday
+        <item>SAT</item> // Saturday
+        <item>SUN</item> // Sunday
+    </string-array>
+
+    <string-array name="task_tab">
+        <item>Ongoing</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="alarm_option_type">
+        <item>Default</item>
+        <item>Sound</item>
+        <item>Vibrator</item>
+    </string-array>
+
+    <string-array name="alarm_vibrator_option_entries">
+        <item>Default</item> // Default
+        <item>Archimedes\' constant</item> // Pie
+        <item>Napier\'s constant</item> // E
+        <item>Golden ratio</item> // Phi
+    </string-array>
+
+    <string-array name="alarm_vibrator_option_values">
+        <item>0</item> // Default
+        <item>1</item> // Pie
+        <item>2</item> // E
+        <item>3</item> // Phi
+    </string-array>
+</resources>

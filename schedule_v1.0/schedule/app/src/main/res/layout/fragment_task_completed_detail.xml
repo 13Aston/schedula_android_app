@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/task_complete_detail_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Title"/>
+
+            <!--divider line -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/divider_line"/>
+
+            <TextView
+                android:id="@+id/task_complete_detail_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Location"/>
+
+            <!--divider line -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/divider_line"/>
+
+            <TextView
+                android:id="@+id/task_complete_detail_set_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Set on Mon 16 Sep 2016"/>
+
+            <!--divider line 1-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/divider_line"/>
+
+            <TextView
+                android:id="@+id/task_complete_detail_completed_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Completed on Mon 16 Sep 2016"/>
+
+            <!--divider line 1-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/divider_line"/>
+
+            <EditText
+                android:id="@+id/task_complete_detail_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="8dp"
+                android:lines="6"
+                android:background="@drawable/rectangular_shape"
+                android:enabled="false"/>
+
+            <!--divider line 1-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/divider_line"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

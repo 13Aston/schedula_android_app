@@ -1,0 +1,333 @@
+CURRENT STATS:
+System memory usage:
+  SOn /Norm: 1 samples:
+    Cached: 171MB min, 171MB avg, 171MB max
+    Free: 1.4GB min, 1.4GB avg, 1.4GB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 116MB min, 116MB avg, 116MB max
+    Native: 51MB min, 51MB avg, 51MB max
+
+Per-Package Stats:
+  * com.aston.tanion.schedule / u0a150 / v1:
+      * com.aston.tanion.schedule / u0a150 / v1:
+               TOTAL: 46% (12MB-14MB-18MB/9.3MB-11MB-14MB over 7)
+                 Top: 41% (13MB-14MB-18MB/10MB-11MB-14MB over 6)
+             Service: 4.0% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+            Receiver: 0.01%
+            (Cached): 15% (3.3MB-9.1MB-12MB/2.5MB-7.1MB-9.4MB over 3)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 6 / time 4.2%
+            Started count 6 / time 4.2%
+          Executing count 3 / time 0.00%
+  * com.aston.tanion.schedule / u0a151 / v1:
+      * com.aston.tanion.schedule / u0a151 / v1:
+               TOTAL: 31% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+                 Top: 31% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 20 / time 0.54%
+            Started count 11 / time 0.50%
+          Executing count 19 / time 0.09%
+
+Summary:
+  * com.aston.tanion.schedule / u0a150 / v1:
+           TOTAL: 46% (12MB-14MB-18MB/9.3MB-11MB-14MB over 7)
+             Top: 41% (13MB-14MB-18MB/10MB-11MB-14MB over 6)
+         Service: 4.0% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+        Receiver: 0.01%
+        (Cached): 15% (3.3MB-9.1MB-12MB/2.5MB-7.1MB-9.4MB over 3)
+  * com.aston.tanion.schedule / u0a151 / v1:
+           TOTAL: 31% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+             Top: 31% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+
+Run time Stats:
+  SOn /Norm: +21m53s591ms (running)
+      TOTAL: +21m53s591ms
+
+Memory usage:
+  Kernel : 116MB (8 samples)
+  Native : 51MB (8 samples)
+  Top    : 17MB (20 samples)
+  ImpFg  : 484KB (21 samples)
+  ImpBg  : 9.0MB (5 samples)
+  Service: 856KB (50 samples)
+  Receivr: 16KB (71 samples)
+  Home   : 17MB (6 samples)
+  LastAct: 76KB (6 samples)
+  CchEmty: 72MB (54 samples)
+  Cached : 171MB (8 samples)
+  Free   : 1.4GB (8 samples)
+  TOTAL  : 1.9GB
+
+          Start time: 2016-02-20 20:55:44
+  Total elapsed time: +21m55s184ms (partial) libart.so
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOn /Norm: 8 samples:
+    Cached: 168MB min, 174MB avg, 199MB max
+    Free: 1.4GB min, 1.4GB avg, 1.4GB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 103MB min, 114MB avg, 116MB max
+    Native: 51MB min, 52MB avg, 60MB max
+       Mod : 1 samples:
+    Cached: 199MB min, 199MB avg, 199MB max
+    Free: 1.4GB min, 1.4GB avg, 1.4GB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 102MB min, 102MB avg, 102MB max
+    Native: 67MB min, 67MB avg, 67MB max
+
+Per-Package Stats:
+  * com.aston.tanion.schedule / u0a74 / v1:
+      * com.aston.tanion.schedule / u0a74 / v1:
+               TOTAL: 8.9% (13MB-20MB-25MB/10MB-17MB-21MB over 45)
+                 Top: 8.9% (13MB-20MB-25MB/10MB-17MB-21MB over 45)
+            (Cached): 0.01%
+  * com.aston.tanion.schedule / u0a143 / v1:
+      * com.aston.tanion.schedule / u0a143 / v1:
+               TOTAL: 12% (10MB-14MB-20MB/7.3MB-11MB-17MB over 60)
+                 Top: 12% (10MB-14MB-20MB/7.3MB-11MB-17MB over 60)
+            (Cached): 19% (3.3MB-3.7MB-3.8MB/2.3MB-2.5MB-2.5MB over 8)
+  * com.aston.tanion.schedule / u0a145 / v1:
+      * com.aston.tanion.schedule / u0a145 / v1:
+               TOTAL: 29% (13MB-19MB-22MB/10.0MB-15MB-18MB over 151)
+                 Top: 28% (13MB-19MB-22MB/10.0MB-15MB-18MB over 150)
+              Imp Fg: 0.03%
+             Service: 0.49% (20MB-20MB-20MB/16MB-16MB-16MB over 1)
+          (Last Act): 0.30% (12MB-13MB-13MB/9.5MB-9.7MB-9.9MB over 2)
+            (Cached): 2.2% (3.3MB-12MB-18MB/2.3MB-9.8MB-14MB over 3)
+      * com.aston.tanion.schedule.service.AlarmService:
+        Process: com.aston.tanion.schedule
+            Running count 46 / time 0.49%
+            Started count 24 / time 0.49%
+          Executing count 45 / time 0.00%
+  * com.aston.tanion.schedule / u0a146 / v1:
+      * com.aston.tanion.schedule / u0a146 / v1:
+               TOTAL: 0.01%
+                 Top: 0.01%
+            (Cached): 0.05% (12MB-12MB-12MB/9.4MB-9.4MB-9.4MB over 1)
+  * com.aston.tanion.schedule / u0a148 / v1:
+      * com.aston.tanion.schedule / u0a148 / v1:
+               TOTAL: 0.08%
+                 Top: 0.08%
+          (Last Act): 0.01%
+            (Cached): 4.2% (3.3MB-6.5MB-12MB/2.4MB-4.9MB-9.8MB over 3)
+  * com.aston.tanion.schedule / u0a149 / v1:
+      * com.aston.tanion.schedule / u0a149 / v1:
+               TOTAL: 0.04% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+                 Top: 0.04% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+            (Cached): 0.03%
+  * com.aston.tanion.schedule / u0a150 / v1:
+      * com.aston.tanion.schedule / u0a150 / v1:
+               TOTAL: 2.2% (12MB-17MB-26MB/9.3MB-14MB-22MB over 14)
+                 Top: 2.1% (12MB-17MB-26MB/10MB-14MB-22MB over 13)
+             Service: 0.09% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+            (Cached): 0.46% (3.3MB-10MB-12MB/2.5MB-8.1MB-10MB over 5)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 6 / time 0.09%
+            Started count 6 / time 0.09%
+          Executing count 3 / time 0.00%
+      * com.aston.tanion.schedule.service.AlarmService:
+        Process: com.aston.tanion.schedule
+            Running count 14 / time 0.00%
+            Started count 7 / time 0.00%
+          Executing count 14 / time 0.00%
+  * com.aston.tanion.schedule / u0a151 / v1:
+      * com.aston.tanion.schedule / u0a151 / v1:
+               TOTAL: 0.66% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+                 Top: 0.66% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 20 / time 0.01%
+            Started count 11 / time 0.01%
+          Executing count 19 / time 0.00%
+
+Summary:
+  * com.aston.tanion.schedule / u0a145 / v1:
+           TOTAL: 29% (13MB-19MB-22MB/10.0MB-15MB-18MB over 151)
+             Top: 28% (13MB-19MB-22MB/10.0MB-15MB-18MB over 150)
+          Imp Fg: 0.03%
+         Service: 0.49% (20MB-20MB-20MB/16MB-16MB-16MB over 1)
+      (Last Act): 0.30% (12MB-13MB-13MB/9.5MB-9.7MB-9.9MB over 2)
+        (Cached): 2.2% (3.3MB-12MB-18MB/2.3MB-9.8MB-14MB over 3)
+  * com.aston.tanion.schedule / u0a143 / v1:
+           TOTAL: 12% (10MB-14MB-20MB/7.3MB-11MB-17MB over 60)
+             Top: 12% (10MB-14MB-20MB/7.3MB-11MB-17MB over 60)
+        (Cached): 19% (3.3MB-3.7MB-3.8MB/2.3MB-2.5MB-2.5MB over 8)
+  * com.aston.tanion.schedule / u0a74 / v1:
+           TOTAL: 8.9% (13MB-20MB-25MB/10MB-17MB-21MB over 45)
+             Top: 8.9% (13MB-20MB-25MB/10MB-17MB-21MB over 45)
+        (Cached): 0.01%
+  * com.aston.tanion.schedule / u0a150 / v1:
+           TOTAL: 2.2% (12MB-17MB-26MB/9.3MB-14MB-22MB over 14)
+             Top: 2.1% (12MB-17MB-26MB/10MB-14MB-22MB over 13)
+         Service: 0.09% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+        (Cached): 0.46% (3.3MB-10MB-12MB/2.5MB-8.1MB-10MB over 5)
+  * com.aston.tanion.schedule / u0a151 / v1:
+           TOTAL: 0.66% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+             Top: 0.66% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+  * com.aston.tanion.schedule / u0a148 / v1:
+           TOTAL: 0.08%
+             Top: 0.08%
+      (Last Act): 0.01%
+        (Cached): 4.2% (3.3MB-6.5MB-12MB/2.4MB-4.9MB-9.8MB over 3)
+  * com.aston.tanion.schedule / u0a149 / v1:
+           TOTAL: 0.04% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+             Top: 0.04% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+        (Cached): 0.03%
+  * com.aston.tanion.schedule / u0a146 / v1:
+           TOTAL: 0.01%
+             Top: 0.01%
+        (Cached): 0.05% (12MB-12MB-12MB/9.4MB-9.4MB-9.4MB over 1)
+
+Run time Stats:
+  SOn /Norm: +16h54m41s149ms
+       Mod : +19s816ms
+      TOTAL: +16h55m0s965ms
+
+Memory usage:
+  Kernel : 114MB (71 samples)
+  Native : 52MB (71 samples)
+  Persist: 123MB (213 samples)
+  Top    : 24MB (827 samples)
+  ImpFg  : 5.8MB (646 samples)
+  ImpBg  : 7.9MB (151 samples)
+  Service: 556KB (776 samples)
+  Receivr: 50KB (959 samples)
+  Home   : 11MB (116 samples)
+  LastAct: 48KB (21 samples)
+  CchAct : 23KB (22 samples)
+  CchEmty: 53MB (922 samples)
+  Cached : 174MB (71 samples)
+  Free   : 1.4GB (71 samples)
+  TOTAL  : 2.0GB
+  ServRst: 5.0 (69 samples)
+
+          Start time: 2016-02-16 15:24:40
+  Total elapsed time: +16h55m45s361ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOn /Norm: 2 samples:
+    Cached: 171MB min, 172MB avg, 172MB max
+    Free: 1.4GB min, 1.4GB avg, 1.4GB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 116MB min, 116MB avg, 116MB max
+    Native: 51MB min, 51MB avg, 51MB max
+
+Per-Package Stats:
+  * com.aston.tanion.schedule / u0a145 / v1:
+      * com.aston.tanion.schedule / u0a145 / v1:
+               TOTAL: 31% (13MB-21MB-22MB/10.0MB-17MB-18MB over 20)
+                 Top: 27% (13MB-21MB-22MB/10.0MB-17MB-18MB over 19)
+              Imp Fg: 0.20%
+             Service: 3.5% (20MB-20MB-20MB/16MB-16MB-16MB over 1)
+          (Last Act): 2.1% (12MB-13MB-13MB/9.5MB-9.7MB-9.9MB over 2)
+            (Cached): 0.50%
+      * com.aston.tanion.schedule.service.AlarmService:
+        Process: com.aston.tanion.schedule
+            Running count 4 / time 3.5%
+            Started count 3 / time 3.5%
+          Executing count 3 / time 0.00%
+  * com.aston.tanion.schedule / u0a146 / v1:
+      * com.aston.tanion.schedule / u0a146 / v1:
+               TOTAL: 0.09%
+                 Top: 0.09%
+          (Last Act): 0.03%
+            (Cached): 0.33% (12MB-12MB-12MB/9.4MB-9.4MB-9.4MB over 1)
+  * com.aston.tanion.schedule / u0a148 / v1:
+      * com.aston.tanion.schedule / u0a148 / v1:
+               TOTAL: 0.56%
+                 Top: 0.56%
+          (Last Act): 0.05%
+            (Cached): 30% (3.3MB-6.5MB-12MB/2.4MB-4.9MB-9.8MB over 3)
+  * com.aston.tanion.schedule / u0a149 / v1:
+      * com.aston.tanion.schedule / u0a149 / v1:
+               TOTAL: 0.26% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+                 Top: 0.26% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+          (Last Act): 0.03%
+            (Cached): 0.22%
+  * com.aston.tanion.schedule / u0a150 / v1:
+      * com.aston.tanion.schedule / u0a150 / v1:
+               TOTAL: 15% (12MB-17MB-26MB/9.3MB-14MB-22MB over 14)
+                 Top: 15% (12MB-17MB-26MB/10MB-14MB-22MB over 13)
+             Service: 0.62% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+            (Cached): 3.2% (3.3MB-10MB-12MB/2.5MB-8.1MB-10MB over 5)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 6 / time 0.65%
+            Started count 6 / time 0.65%
+          Executing count 3 / time 0.00%
+      * com.aston.tanion.schedule.service.AlarmService:
+        Process: com.aston.tanion.schedule
+            Running count 14 / time 0.01%
+            Started count 7 / time 0.01%
+          Executing count 14 / time 0.01%
+  * com.aston.tanion.schedule / u0a151 / v1:
+      * com.aston.tanion.schedule / u0a151 / v1:
+               TOTAL: 4.7% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+                 Top: 4.7% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+      * com.aston.tanion.schedule.service.DateChangeService:
+        Process: com.aston.tanion.schedule
+            Running count 20 / time 0.08%
+            Started count 11 / time 0.08%
+          Executing count 19 / time 0.01%
+
+Summary:
+  * com.aston.tanion.schedule / u0a145 / v1:
+           TOTAL: 31% (13MB-21MB-22MB/10.0MB-17MB-18MB over 20)
+             Top: 27% (13MB-21MB-22MB/10.0MB-17MB-18MB over 19)
+          Imp Fg: 0.20%
+         Service: 3.5% (20MB-20MB-20MB/16MB-16MB-16MB over 1)
+      (Last Act): 2.1% (12MB-13MB-13MB/9.5MB-9.7MB-9.9MB over 2)
+        (Cached): 0.50%
+  * com.aston.tanion.schedule / u0a150 / v1:
+           TOTAL: 15% (12MB-17MB-26MB/9.3MB-14MB-22MB over 14)
+             Top: 15% (12MB-17MB-26MB/10MB-14MB-22MB over 13)
+         Service: 0.62% (12MB-12MB-12MB/9.3MB-9.3MB-9.3MB over 1)
+        (Cached): 3.2% (3.3MB-10MB-12MB/2.5MB-8.1MB-10MB over 5)
+  * com.aston.tanion.schedule / u0a151 / v1:
+           TOTAL: 4.7% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+             Top: 4.7% (12MB-16MB-18MB/10MB-13MB-15MB over 5)
+  * com.aston.tanion.schedule / u0a148 / v1:
+           TOTAL: 0.56%
+             Top: 0.56%
+      (Last Act): 0.05%
+        (Cached): 30% (3.3MB-6.5MB-12MB/2.4MB-4.9MB-9.8MB over 3)
+  * com.aston.tanion.schedule / u0a149 / v1:
+           TOTAL: 0.26% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+             Top: 0.26% (13MB-13MB-13MB/10MB-10MB-10MB over 1)
+      (Last Act): 0.03%
+        (Cached): 0.22%
+  * com.aston.tanion.schedule / u0a146 / v1:
+           TOTAL: 0.09%
+             Top: 0.09%
+      (Last Act): 0.03%
+        (Cached): 0.33% (12MB-12MB-12MB/9.4MB-9.4MB-9.4MB over 1)
+
+Run time Stats:
+  SOn /Norm: +2h22m55s386ms
+      TOTAL: +2h22m55s386ms
+
+Memory usage:
+  Kernel : 116MB (16 samples)
+  Native : 51MB (16 samples)
+  Persist: 120MB (30 samples)
+  Top    : 23MB (102 samples)
+  ImpFg  : 3.8MB (106 samples)
+  ImpBg  : 10MB (23 samples)
+  Service: 3.6MB (137 samples)
+  Receivr: 9.4KB (166 samples)
+  Home   : 12MB (14 samples)
+  LastAct: 355KB (16 samples)
+  CchAct : 175KB (33 samples)
+  CchEmty: 63MB (190 samples)
+  Cached : 172MB (16 samples)
+  Free   : 1.4GB (16 samples)
+  TOTAL  : 2.0GB
+  ServRst: 1.0 (3 samples)
+
+          Start time: 2016-02-20 17:32:00
+  Total elapsed time: +2h23m3s9ms (partial) libart.so

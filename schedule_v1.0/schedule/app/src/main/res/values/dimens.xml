@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_elevation">8dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="card_view_elevation">4dp</dimen>
+    <dimen name="card_view_corner_radius">5dp</dimen>
+    <dimen name="card_view_content_padding">8dp</dimen>
+    <!-- Time -->
+    <dimen name="time_shape_size">100dp</dimen>
+    <!--Text -->
+</resources>

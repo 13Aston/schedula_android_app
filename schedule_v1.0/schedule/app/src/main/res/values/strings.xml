@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    
+    <!--Activity-->
+    <string name="timetable">Timetable</string>
+    <string name="timetable_preview">%s Preview</string>
+    <string name="task">Task</string>
+    <string name="completed_task">Completed Task</string>
+    <string name="goals">Goals</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="empty_schedule">No schedule</string>
+    <string name="empty_tasks">No tasks</string>
+    <string name="hour">Hour :</string>
+    <string name="minute">Minute :</string>
+
+    <!--Dialog -->
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Items -->
+    <string name="title">Title</string>
+    <string name="location">Location</string>
+    <string name="no_location">Unknown</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="snack_bar_delete_message">Item deleted</string>
+    <string name="snack_bar_delete_action">Undo</string>
+    <string name="set_on">Set on</string>
+    <string name="due_at">Due at</string>
+    <string name="due_on">Due on</string>
+    <string name="complete_on">Completed on</string>
+    <string name="on">on</string>
+    <string name="week">Week</string>
+    <string name="weeks">Weeks</string>
+    <string name="week_name">Name</string>
+    <string name="week_position">Position</string>
+    <string name="week_current">Set as current week</string>
+    <string name="week_default_name">Default Week</string>
+    <string name="week_preview">Week Preview</string>
+    <string name="week_info">Info</string>
+    <string name="week_detail_info_content">has %1$d event%2$s</string>
+
+    <!-- Item alarm -->
+    <string name="alarm">Set alarm</string>
+    <string name="alarm_on">On</string>
+    <string name="alarm_off">Off</string>
+    <string name="alarm_start">Set start alarm</string>
+    <string name="alarm_end">Set end alarm</string>
+    <string name="alarm_type">Alarm type</string>
+    <string name="alarm_type_sound">Sound</string>
+    <string name="alarm_type_vibrator">Vibrator</string>
+    <string name="alarm_type_bip">Bip</string>
+    <string name="alarm_before">Set reminder</string>
+    <string name="alarm_before_time">Reminder set %1$sh : %2$sm before the notification.</string>
+    <string name="alarm_before_hour">Reminder set %1$s hour%2$s before the notification</string>
+    <string name="alarm_before_minute">Reminder set %s minutes before the notification</string>
+    <string name="alarm_options">Options</string>
+    <string name="alarm_section">Alarm</string>
+    <string name="alarm_snooze">Snooze</string>
+    <string name="alarm_tone">Alarm tone</string>
+    <string name="alarm_vibrator">Alarm vibrator</string>
+    <string name="alarm_priority_change_reminder">Remind me when the priority changes</string>
+    <string name="reminder_wake_up_call">Set wake-up call</string>
+    <string name="reminder_wake_up_call_text">Alarm set on due date at</string>
+
+    <!-- Item notification -->
+    <string name="notification_timetable_start_alarm_now">You are scheduled to have \"%1$s\" now.\n\nLocation: %2$s.</string>
+    <string name="notification_timetable_start_alarm_before">You are scheduled to have \"%1$s\" in %2$sh : %3$sm.\n\nLocation: %4$s</string>
+    <string name="notification_timetable_start_alarm_before_m">You are scheduled to have \"%1$s\" in %2$d minutes.\n\nLocation: %3$s</string>
+    <string name="notification_timetable_start_alarm_before_h">You are scheduled to have \"%1$s\" in %2$d hour%3$s.\n\nLocation: %4$s</string>
+
+    <string name="notification_task_start_alarm_now">You are scheduled for the task \"%1$s\" now.\n\nLocation: %2$s.</string>
+    <string name="notification_task_start_alarm_before">You are scheduled for the task \"%1$s\" in %2$sh : %3$sm.\n\nLocation: %4$s</string>
+    <string name="notification_task_start_alarm_before_m">You are scheduled for the task \"%1$s\" in %2$d minutes.\n\nLocation: %3$s</string>
+    <string name="notification_task_start_alarm_before_h">You are scheduled to have \"%1$s\" in %2$s hour%3$s.\n\nLocation: %4$s</string>
+
+    <string name="notification_alarm_end">\"%s\" has finished.</string>
+    <string name="notification_alarm_end_before">\"%1$s\" will end in %2$sh : %3$sm.</string>
+    <string name="notification_alarm_end_before_m">\"%1$s\" will end in %2$d minutes.</string>
+    <string name="notification_alarm_end_before_h">\"%1$s\" will end in %2$d hour%3$s.</string>
+
+    <string name="notification_alarm_detail_message">Detail:</string>
+    <string name="notification_alarm_detail_message_not_given">No detail provided.</string>
+    <string name="notification_priority_amber">Medium (Amber)</string>
+    <string name="notification_priority_red">High (Red)</string>
+    <string name="notification_priority_change">Warning :\nThis task priority has chance to: %s.</string>
+    <string name="notification_wake_up_call">This task is due today at %s. You should prepare any
+        necessities needed to complete this task.</string>
+
+    <!--Error -->
+    <string name="error_title_required">Title required</string>
+    <string name="error_time_equality">The \"End time\" must be greater than the \"Start time\".</string>
+    <string name="error_time_overlap">This event must not overlap with other event.</string>
+    <string name="error_time_past">This time has already passed.</string>
+    <string name="error_date_past">This day has already passed.</string>
+    <string name="error_wake_up_call_time">The wake-up call time must be set before the due time.</string>
+    <string name="error_wake_up_call_time_pass">The wake-up call time have already passed.</string>
+    <string name="error_name_existent">This name already exist.</string>
+
+    <!--Menu -->
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+
+    <!--Preference -->
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="developer_option">Developer</string>
+    <string name="developer_method">Method</string>
+    <string name="weeks_pref">Timetable</string>
+    <string name="week_pref">Week</string>
+    <string name="week_pref_summary">Add, remove, update.</string>
+    <string name="freeze_pref">Freeze (coming soon)</string>
+    <string name="freeze_pref_summary">Stop certain week\'s rotation.</string>
+    <string name="general_pref">General</string>
+    <string name="option_pref">Optional</string>
+    <string name="alarm_pref">Alarm</string>
+    <string name="alarm_pref_summary">Always set on when creating a new task or a timetable event.</string>
+    <string name="reminder_pref">Reminder</string>
+    <string name="reminder_pref_summary">Always set at 5 minutes before the notification.</string>
+    <string name="priority">Priority</string>
+    <string name="priority_pref_summary">Always remind me when the priority changes.</string>
+    <string name="wake_up_call">Wake-up call</string>
+    <string name="wake_up_call_default_summary">No settings applied. Click here to modify.</string>
+    <string name="wake_up_call_check">Always set a wake-up call</string>
+    <string name="wake_up_call_edit">Set wake-up call</string>
+    <string name="wake_up_call_edit_summary">Set at %s (24h format). Click here to modify.</string>
+    <string name="wake_up_call_edit_default">06:30</string>
+
+    <!-- Toast -->
+    <string name="toast_exit_preview">Exiting preview mode.</string>
+    <string name="toast_enter_preview">Entering preview mode.</string>
+    <string name="toast_delete_current_week">You can\'t delete the current week.</string>
+    <string name="toast_week_overlap">Weeks must not have the same position nor the same title.</string>
+
+    <!-- Tutorial  -->
+    <string name="tutorial">Tutorial</string>
+    <string name="navigation">Navigation</string>
+    <string name="navigation_tutorial">If you are in <i><u>Timetable</u></i> or in <i><u>Task</u></i>
+        (main section), touch the left side of the screen then swipe right to navigate between menus.
+        If you are in <i><u>Settings</u></i>, <i><u>About</u></i> or <i><u>Tutorial</u></i>
+        (sub section), press the back button to navigate to the main section.
+        \n\n<b>Note</b>: To see this tutorial again, navigate to the <i><u>About</u></i>, scroll
+        down and click on <i><u>TUTORIAL</u></i>.</string>
+
+    <string name="task_tutorial">In <i><u>Task</u></i>, swipe left or right to navigate between
+        <i><u>ONGOING</u></i> and <i><u>COMPLETED</u></i> section.
+        \n\n<b>Add a task</b>:
+        \n- Click on the “+” sign button
+        \n- Fill in the information
+        \n- Click save
+        \n\n<b>Complete a task</b>:
+        \nIn <i><u>ONGOING</u></i> section, click on the check box (square box below the alarm icon)
+        of the task you wish to set as completed. By doing so, your task will be removed from
+        <i><u>ONGOING</u></i> and placed in <i><u>COMPLETED</u></i> section.
+        \n\n<b>Delete a task</b>:
+        \n- Click on the “x” sign icon</string>
+
+    <string name="timetable_tutorial">In <i><u>Timetable</u></i>, swipe left or right to navigate
+        between days.
+        \n\n<b>Add an event</b>:
+        \n- Click on the “+” sign button
+        \n- Fill in the information
+        \n- Click save
+        \n\n<b>View other week</b>:
+        \n- Click on the menu (three dots on the top right corner)
+        \n- Click on <i><u>Week Preview</u></i>
+        \n- Click on the week you wish to view
+        \n- Click on the back button to exit the preview
+        \n\n<b>Delete an event</b>:
+        \n- Click on the “x” sign icon</string>
+
+    <string name="week_tutorial">Navigate to <i><u>Settings</u></i> and click on <i><u>Week</u></i>.
+        \n\n<b>Add a week</b>:
+        \n- Click on the “+” sign button
+        \n- Fill in the week name
+        \n- Click OK
+        \n\n<b>Update a week</b>:
+        \n- Click on the week you wish to update
+        \n- Change the name if needed
+        \n- Set it as current week if needed
+        \n- Click OK
+        \n\n<b>Change the order</b>
+        \n- Press the week you wish to change the position until it turns grey
+        \n- Drag up or down to change its position
+        \n\n<b>Delete a week</b>:
+        \nSwipe left or right to delete a week.</string>
+
+    <!-- Format -->
+    <string name="integer_format" translatable="false">%d</string>
+    <string name="date_format">EEE dd MMM yyyy</string>
+    <string name="hour_format">%1$s:%2$s</string>
+    <string name="week_date_pref_format">%1$d:%2$d:%3$d</string>
+    <string name="field_value_format">%1$s : %2$s</string>
+
+
+    <!-- About the app-->
+    <string name="about_the_app">About the app</string>
+    <string name="about_the_app_text">Schedule is a notification based app that helps you manage
+        your time. The main features of the app include a timetable and a task manager.
+        \n\n<b>Timetable manager</b>:
+        \n- Timetable any number of weeks to rotate through.
+        \n- Get a notification at the start or the end of each event.
+        \n- Set a custom reminder before each notification.
+        \n\n<b>Task manager</b>:
+        \n- Create a detailed task with a deadline.
+        \n- Get a notification at the start of each task.
+        \n- Colour-coded reminders as the deadline gets closer.
+        \n- Set Wake up call: a reminder on the morning of your deadline to make sure you have
+        everything needed in order to complete the task.</string>
+
+    <string name="build_by">Designed and built by Aston Tanion.</string>
+    <string name="credit">Credits</string>
+    <string name="credit_text">Launcher icon : made by Aston Tanion
+        \nTimetable icon : made by Freepik from www.flaticon.com
+        \nTask icon : made by Freepik from www.flaticon.com
+        \nSettings icon : made by Freepik from www.flaticon.com
+        \nHelp icon : made by Freepik from www.flaticon.com
+        \nAbout icon : made by Freepik from www.flaticon.com</string>
+
+</resources>
